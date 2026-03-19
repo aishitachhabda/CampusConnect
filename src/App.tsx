@@ -3,8 +3,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import Index from "./pages/Index.tsx";
-import NotFound from "./pages/NotFound.tsx";
+import AppLayout from "@/components/AppLayout";
+import FeedPage from "@/pages/FeedPage";
+import EventsPage from "@/pages/EventsPage";
+import ClubsPage from "@/pages/ClubsPage";
+import ResourcesPage from "@/pages/ResourcesPage";
+import PeoplePage from "@/pages/PeoplePage";
+import ProfilePage from "@/pages/ProfilePage";
+import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
 
@@ -14,11 +20,17 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <AppLayout>
+          <Routes>
+            <Route path="/" element={<FeedPage />} />
+            <Route path="/events" element={<EventsPage />} />
+            <Route path="/clubs" element={<ClubsPage />} />
+            <Route path="/resources" element={<ResourcesPage />} />
+            <Route path="/people" element={<PeoplePage />} />
+            <Route path="/profile" element={<ProfilePage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </AppLayout>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
