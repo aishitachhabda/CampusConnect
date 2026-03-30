@@ -3,7 +3,6 @@
 
 CampusConnect is a modern web platform designed to bring college students together in one unified digital space. It enables students to connect, collaborate, explore opportunities, and stay updated with everything happening on campus.
 
----
 
 ##  Overview
 
