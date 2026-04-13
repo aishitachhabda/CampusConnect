@@ -17,7 +17,7 @@ It blends **social networking + productivity tools** tailored specifically for c
 
 ---
 
-## ✨ Features
+## Features
 
 ###  Authentication
 
@@ -26,7 +26,7 @@ It blends **social networking + productivity tools** tailored specifically for c
 
 ---
 
-### 🧑‍🎓 User Profiles
+### User Profiles
 
 * Personalized profiles with:
 
@@ -37,7 +37,7 @@ It blends **social networking + productivity tools** tailored specifically for c
 
 ---
 
-### 📅Events
+### Events
 
 * View all upcoming campus events
 * Event details: title, description, date, time, venue
@@ -54,7 +54,7 @@ It blends **social networking + productivity tools** tailored specifically for c
 
 ---
 
-### 👥 Clubs & Communities
+###  Clubs & Communities
 
 * Discover and join clubs
 * Each club includes:
@@ -65,7 +65,7 @@ It blends **social networking + productivity tools** tailored specifically for c
 
 ---
 
-### 📚 Study Resources
+###  Study Resources
 
 * Upload and share notes (PDFs, files)
 * Categorized by subjects
@@ -73,7 +73,7 @@ It blends **social networking + productivity tools** tailored specifically for c
 
 ---
 
-### 🔔 Notifications
+###  Notifications
 
 * Event reminders
 * Club updates
@@ -81,7 +81,7 @@ It blends **social networking + productivity tools** tailored specifically for c
 
 ---
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 * Clean and minimal UI
 * Gen-Z inspired design
@@ -91,7 +91,7 @@ It blends **social networking + productivity tools** tailored specifically for c
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CampusConnect/
@@ -102,7 +102,7 @@ CampusConnect/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -119,7 +119,7 @@ cd campusconnect
 
 ---
 
-## 🌟 Future Enhancements
+##  Future Enhancements
 
 * Real-time chat system
 * AI-based recommendations (events & clubs)
@@ -128,7 +128,7 @@ cd campusconnect
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 Feel free to fork the repo and submit a pull request.
