@@ -117,16 +117,6 @@ cd campusconnect
 * Configure environment variables
 * Start development servers
 
----
-
-##  Future Enhancements
-
-* Real-time chat system
-* AI-based recommendations (events & clubs)
-* Advanced search & filters
-* Internship and opportunity board
-
----
 
 ##  Contributing
 
